@@ -1,0 +1,23 @@
+# filepath: /Users/mjacob/workspaces/github/pdf_extractor/.gitignore
+# Environment variables
+.env
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# macOS specific files
+.DS_Store
+
+# IDE specific files (e.g., VS Code)
+.vscode/
+
+# Output directories (optional, if you don't want to track extracted chapters)
+# *_chapters_*/ 
