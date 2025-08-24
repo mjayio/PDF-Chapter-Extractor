@@ -11,7 +11,7 @@ def default_logger(message, level="INFO"):
 
 # --- Configuration ---
 # Model name - check Google AI documentation for the latest free/flash model
-GEMINI_MODEL_NAME = "gemini-2.5-flash-preview-04-17" 
+GEMINI_MODEL_NAME = "gemini-2.5-flash" 
 # Safer Generation Config (optional, adjust as needed)
 GENERATION_CONFIG = {
   "temperature": 0.2, # Lower temperature for more deterministic output
